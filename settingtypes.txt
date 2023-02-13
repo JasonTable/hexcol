@@ -1,0 +1,2 @@
+# The progressive mode shows recipes you can craft from items you ever had in your inventory.
+hexcol_inv    (Show hexcol blocks in creative inventory)    bool true
