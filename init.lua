@@ -46,6 +46,7 @@ do
         groups = itemgroup,
         sounds = block_sound,
         node_placement_prediction = "hexcol:"..firsthex.."xx",
+        place_param2 = tonumber("0x"..p2hex),
         on_place = function(itemstack, placer, pointed_thing)
             if not (creative and creative.is_enabled_for
 			and creative.is_enabled_for(placer:get_player_name()))
